@@ -1,8 +1,9 @@
 /* robin attribute */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 * {
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 body{
   font-family: 'Abril Fatface', serif;
  
