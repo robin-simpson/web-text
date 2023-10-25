@@ -3,7 +3,10 @@
 * {
   box-sizing: border-box;
 }
+:root{
+--main-color: #0455b5
 
+}
 body{
   font-family: 'Abril Fatface', serif;
  
