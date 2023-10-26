@@ -1,0 +1,84 @@
+:root {
+    --main-color: #0468bf4f;
+    --secondary-color: #049dd9;
+    --tertiary-color: #592202;
+    --accent-color: #05c7f2;
+    --background-color: #D9D9D9;
+    --title-font: 'Montserrat', Verdana, sans-serif;
+    --body-font: Verdana, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+   
+  body {
+    padding: 5%;
+    background-color: var(--background-color);
+  }
+
+  header{
+   
+  }
+ 
+  nav {
+    padding: 1rem;
+    font-family: var(--title-font);
+ 
+  }
+ 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+  }
+
+  h1{
+    font-size: 4rem;
+  }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  p {
+    font-family: var(--body-font);
+  }
+ 
+  a{
+    color: var(--accent-color);
+  }
+ 
+  a:hover {
+    color: var(--secondary-color);
+  }
+ 
+  img {
+    padding: 1rem;
+  }
+ 
+  #section-one img,  #section-three img, .caption-left {
+    float: left;
+    display: block;
+  }
+
+  #section-two img,  #section-four img, .caption-right {
+    float: right;
+    display: block;
+  }
+ 
+  #section-one {
+ 
+  background-color: var(--secondary-color);
+  }
+
+  #section-two {
+   
+  }
+ 
+  #section-three {
+     background-color: var(--accent-color);
+     color: #fff;
+  }
+ 
+  #section-four {
+   
+  
