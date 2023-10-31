@@ -17,9 +17,7 @@
     background-color: var(--background-color);
   }
 
-  header{
-   
-  }
+ 
  
   nav {
     padding: 1rem;
@@ -70,15 +68,26 @@
   background-color: var(--secondary-color);
   }
 
-  #section-two {
-   
-  }
+
  
   #section-three {
      background-color: var(--accent-color);
      color: #fff;
   }
  
-  #section-four {
+ 
+    .thumbnail-container {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      max-width:1200px;
+      margin:0 auto;
+      padding:0px;
+    }
+    
+    
+    .thumbnail-container img {
+      margin-bottom:20px;
+    }
+
    
-  

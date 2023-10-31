@@ -1,0 +1,22 @@
+<!--These links are for the fancybox gallery-->
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+
+<section class="section-color" id="lightbox">
+	<div class="content">
+		<div class="container">		
+		
+			<h2>Lightbox gallery example</h2>
+
+			<div class="thumbnail-container">
+
+				<a data-fancybox="gallery" href="img/forest-path-large.jpg" data-caption="Large forest path">
+					<img src="img/forest-path-thumb.jpg" alt="Forest path thumbnail">
+				</a>
+
+			</div>
+		</div>
+	</div>
+</section>
