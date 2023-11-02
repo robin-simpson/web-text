@@ -1,31 +1,8 @@
-/* gradient */
+
 * {
-    background: rgb(2,0,36);
-background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(0,0,0,1) 90%);
-background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(0,0,0,1) 90%);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 56%, rgba(0,0,0,1) 90%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
+  background: #60475C;
 }
-.button {
-    border: rgb(112, 64, 124);
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 502px 415px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button {
-  background-color: rgb(166, 116, 168); 
-  color: rgb(255, 255, 255); 
-  border: 2px solid rgb(112, 64, 124)
-}
-
-.button:hover {
-  background-color: #a00c6ffd;
-  color: white;
+  body{
+    margin: auto;
+    width: 75%;
 }
