@@ -1,0 +1,21 @@
+/* Page title area */
+header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/posters/1x/[Downloader.la]-654987a15a879.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* Page title words */
+header h1 {
+    padding: 16px;
+    width: 60%;
+    margin: auto;
+    background-color: #00000071;
+    color: #fff;
+    font-size: 72pt;
+}
