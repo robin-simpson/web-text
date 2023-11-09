@@ -5,19 +5,46 @@
     <head>
         <link rel="icon" type="image/x-icon" href="26 10 23/favicon.ico">
         <link href="/stylesheet-1.css" rel="stylesheet">
-
     </head>
 
     <body>
+        <!-- <div class="row">
+            <div class="column">
+                <img src="/posters/1x/poster 1.png" alt="cat people" style="width:100%">
+            </div>
+        <div class="column">
+            <img src="/posters/1x/poster 2.png" alt="bride" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/posters/1x/poster 3.png" alt="dead" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/posters/1x/poster 4.png" alt="vamp" style="width:100%">
+        </div> -->
 
-        <header>
-        
-        </header>
-
-      
-        <footer>
-        <script src="https://kit.fontawesome.com/a667f39de5.js" crossorigin="anonymous"></script>            
+        <div class="poster-container">
+            <div class="poster">
+                <img src="/posters/1x/poster 1.png" alt="cat people" style="width:100%">
+            </div>
+        <div class="poster">
+            <img src="/posters/1x/poster 2.png" alt="bride" style="width:100%">
+        </div>
+        <div class="poster">
+            <img src="/posters/1x/poster 3.png" alt="dead" style="width:100%">
+        </div>
+        <div class="poster poster-book" onclick="myFunction()">
+            <img src="/posters/1x/poster 4.png" alt="vamp" style="width:100%">
+            <span class="popuptext" id="myPopup">A Simple Popup!</span>
+        </div>
+        <footer>       
         </footer>
-
+        <script src="https://kit.fontawesome.com/a667f39de5.js" crossorigin="anonymous"></script> 
+        <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+        </script>
     </body> 
 </html>
