@@ -1,4 +1,12 @@
 /* Page title area */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;
+    }
 header {
     display: flex;
     align-items: center;
@@ -18,4 +26,66 @@ header h1 {
     background-color: #00000071;
     color: #fff;
     font-size: 72pt;
+}
+.book-container {
+    display: grid;
+  width: 80%;
+  margin: 20vh auto;
+  column-gap: 6px;
+  padding: 3px;
+  position: relative;
+}
+
+.text-1 {
+  color: #fff;
+    display: flex;
+   align-items:center;
+   overflow-wrap: break-word;
+   margin: 0 auto;
+  max-width: 300px;
+  border: solid 2px #000;
+   font-size: 30px;
+   background-color: rgb(10, 6, 26);
+   position: absolute;
+   top: -0%;
+   left: 25%;
+}
+.text-2 {
+    color: #fff;
+    display: flex;
+   align-items:center;
+   overflow-wrap: break-word;
+   margin: 0 auto;
+  max-width: 300px;
+  border: solid 2px #000;
+   font-size: 30px;
+   background-color: rgb(10, 6, 26);
+   position: absolute;
+   top: 33.5%;
+   left: 25%;
+}
+
+.text-3 {
+    color: #fff;
+    display: flex;
+   align-items:center;
+   overflow-wrap: break-word;
+   margin: 0 auto;
+  max-width: 300px;
+  border: solid 2px #000;
+   font-size: 30px;
+   background-color: rgb(10, 6, 26);
+   position: absolute;
+   top: 65%;
+   left: 25%;
+   height: 595px; 
+}
+.title {
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    background-color: rgba(176, 33, 212, 0.199);
+    
 }
